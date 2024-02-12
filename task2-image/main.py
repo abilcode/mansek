@@ -49,7 +49,7 @@ def update_graph_interest(group_by):
         'data': [{
             'x': grouped_data.index,
             'y': grouped_data['interest_income'],
-            'type': 'line'
+            'type': 'waterfall'
         }],
         'layout': {
             'title': title,
@@ -107,7 +107,7 @@ def update_graph_yield(group_by):
         'data': [{
             'x': grouped_data.index,
             'y': grouped_data['interest_income'] / grouped_data['funded_amount'],
-            'type': 'line'
+            'type': 'bar'
         }],
         'layout': {
             'title': title,
