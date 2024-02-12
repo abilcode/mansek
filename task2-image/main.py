@@ -6,7 +6,7 @@ import pandas as pd
 
 # Sample DataFrame
 df = pd.read_csv(
-    "used_data.csv",
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vR_sXkhpy1yzfzvdRatL-i4zqJNB1FLylFu2972-6KtbZg2VerWA2-PRW7ciESnbImY0RUqPYgHspra/pub?gid=361306528&single=true&output=csv",
     parse_dates=["funded_date"]
 )
 
